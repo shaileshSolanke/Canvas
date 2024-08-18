@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  background: #000000;
+}
+button {
+  position: fixed;
+  right: 0;
+  margin: 1rem;
+  width: 8rem;
+  height: 4rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  background: black;
+  color: white;
+  border: 0.2rem solid;
+  transition: background ease 0.25s, color ease 0.25s;
+  &:hover {
+    background: white;
+    color: black;
+  }
+  &:active {
+    background: lightgray;
+  }
+}
