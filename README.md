@@ -1,10 +1,15 @@
+# Important
+This initially only supports the mouse events, making it non-functional on Android or any touch-screen devices.
+
+So i will update the code ASAP to handle touch events (`touchstart`, `touchmove`, `touchend`), making it compatible with touch devices.
+
 # Canvas Drawing App
 
 This is a simple drawing application built with HTML, CSS, and JavaScript. The app allows you to draw on a canvas with dynamically changing colors and line widths. You can also clear the canvas with a button click.
 
 ## Preview
 
-![Clock Screenshot](./assets/preview/preview.png)
+![Canvas Screenshot](./assets/preview/preview.png)
 
 ## Features
 
